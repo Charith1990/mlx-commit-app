@@ -1,0 +1,28 @@
+# Xcode
+xcuserdata/
+*.xcuserstate
+*.xcworkspace/xcshareddata/swiftpm/
+DerivedData/
+build/
+.build/
+*.moved-aside
+*.hmap
+*.ipa
+*.dSYM.zip
+*.dSYM
+
+# Swift Package Manager
+.swiftpm/
+Package.resolved
+
+# Model weights never go in git. The app reads them from a folder you pick.
+models/
+*.safetensors
+
+# macOS
+.DS_Store
+
+# This machine has a global gitignore containing "*.md", which would silently
+# keep README.md out of the repository. A repo .gitignore beats the global one,
+# so undo it here.
+!*.md
